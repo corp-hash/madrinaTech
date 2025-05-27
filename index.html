@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Madrina Tech - IT Solutions & Development</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header/Navigation -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <a href="#"><span>Madrina</span> Tech</a>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#ceo">CEO</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Innovative IT Solutions for Your Business</h1>
+                <p>We specialize in custom software, web, and mobile app development to help your business thrive in the digital world.</p>
+                <div class="cta-buttons">
+                    <a href="#contact" class="btn primary">Get Started</a>
+                    <a href="#projects" class="btn secondary">Our Work</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Tech Solutions">
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Our Services</h2>
+            <p class="section-subtitle">We offer comprehensive IT solutions tailored to your business needs</p>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Software Development</h3>
+                    <p>Custom software solutions designed to streamline your business operations and improve efficiency.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>Website Development</h3>
+                    <p>Responsive, user-friendly websites that represent your brand and drive customer engagement.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Mobile App Development</h3>
+                    <p>iOS and Android applications built with the latest technologies for optimal performance.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <h3>Cloud Solutions</h3>
+                    <p>Scalable cloud services to ensure your business data is secure and accessible anywhere.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Database Management</h3>
+                    <p>Efficient data storage, management, and analysis solutions for your business.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3>IT Consulting</h3>
+                    <p>Expert advice to help you make the right technology decisions for your business.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Our Projects</h2>
+            <p class="section-subtitle">Some of our recent work for clients across various industries</p>
+            
+            <div class="projects-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+                <button class="filter-btn" data-filter="mobile">Mobile</button>
+                <button class="filter-btn" data-filter="software">Software</button>
+            </div>
+            
+            <div class="projects-grid">
+                <!-- Project items will be loaded dynamically from JavaScript -->
+            </div>
+            
+            <div class="load-more">
+                <button id="load-more-btn" class="btn primary">Load More</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <h2 class="section-title">About Madrina Tech</h2>
+                <p>Founded in 2023, Madrina Tech has been at the forefront of delivering innovative IT solutions to businesses of all sizes. Our team of experienced developers, designers, and IT specialists are dedicated to helping our clients achieve their digital transformation goals.</p>
+                
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <h3>50+</h3>
+                        <p>Projects Completed</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>30+</h3>
+                        <p>Happy Clients</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>15+</h3>
+                        <p>Team Members</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>5</h3>
+                        <p>Years Experience</p>
+                    </div>
+                </div>
+                
+                <a href="#contact" class="btn primary">Get in Touch</a>
+            </div>
+            <div class="about-image">
+                <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Madrina Tech Team">
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">What Our Clients Say</h2>
+            <p class="section-subtitle">Feedback from our valued clients</p>
+            
+            <div class="testimonials-slider">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Madrina Tech transformed our outdated systems into a modern, efficient platform. Their team was professional, knowledgeable, and delivered beyond our expectations."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/women/45.jpg" alt="Sarah Johnson">
+                        <div>
+                            <h4>Sarah Johnson</h4>
+                            <span>CEO, Retail Solutions</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"The mobile app developed by Madrina Tech has significantly improved our customer engagement. Their attention to detail and user experience focus is impressive."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Michael Chen">
+                        <div>
+                            <h4>Michael Chen</h4>
+                            <span>Director, HealthPlus</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"We've worked with several IT firms, but Madrina Tech stands out for their technical expertise and commitment to delivering on time and within budget."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Emma Rodriguez">
+                        <div>
+                            <h4>Emma Rodriguez</h4>
+                            <span>CTO, FinanceCorp</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">Have a project in mind or want to learn more about our services?</p>
+            
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="info-content">
+                            <h3>Location</h3>
+                            <p>Nairobi</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="info-content">
+                            <h3>Email</h3>
+                            <p>info@madrinatech.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="info-content">
+                            <h3>Phone</h3>
+                            <p>+(254)790627448</p>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <h3>Follow Us</h3>
+                        <div class="social-icons">
+                            <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                            <a href="https://www.linkedin.com/in/allan-ngugi-a22426368/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a href="https://github.com/ngugiAllan" target="_blank"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" placeholder="Subject">
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <div class="logo">
+                        <a href="#"><span>Madrina</span> Tech</a>
+                    </div>
+                    <p>Innovative IT solutions for businesses looking to thrive in the digital age.</p>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="#">Software Development</a></li>
+                        <li><a href="#">Website Development</a></li>
+                        <li><a href="#">Mobile App Development</a></li>
+                        <li><a href="#">Cloud Solutions</a></li>
+                        <li><a href="#">IT Consulting</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe to our newsletter for the latest updates.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your Email">
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2023 Madrina Tech. All Rights Reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <!-- Cookies Consent Banner -->
+<div class="cookies-consent">
+    <div class="cookies-content">
+        <p>We use cookies to ensure you get the best experience on our website. <a href="#">Learn more</a></p>
+        <button class="btn primary" id="accept-cookies">Accept</button>
+    </div>
+</div>
+
+<!-- CEO Section -->
+<section id="ceo" class="ceo-section">
+    <div class="container">
+        <div class="ceo-image">
+            <img src="prof .jpg" alt="Allan Ngugi, CEO of Madrina Tech">
+        </div>
+        <div class="ceo-content">
+            <h2 class="section-title">Meet Our CEO</h2>
+            <h3>Allan Ngugi</h3>
+            <p class="ceo-title">Founder & Chief Executive Officer</p>
+            <div class="ceo-message">
+                <p>"At Madrina Tech, we believe technology should empower businesses to reach their full potential. Our mission is to deliver innovative solutions that drive growth and create lasting value for our clients."</p>
+                <p>With over 5 years of experience in the tech industry, Allan founded Madrina Tech in 2023 with a vision to bridge the gap between cutting-edge technology and business needs. His leadership has guided the company to become a trusted partner for businesses across multiple industries.</p>
+            </div>
+            <div class="ceo-social">
+                <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="#" target="_blank"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+</html>
